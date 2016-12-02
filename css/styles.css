@@ -1,11 +1,28 @@
-nav {
-  background-color: white;
-  color: black;
+/**:not(body):not(html) {
+  box-sizing:border-box;
+  border:1px dashed #000;
+}*/
+/*.img {
+  padding: 0;
+  margin-bottom: 0:
+}*/
+
+
+#hey {
+padding: 0;
+margin: 0;
 }
-*{
+#yo {
+  padding: 0;
+  margin: 0;
+
+}
+#ok {
+  padding: 0;
+  margin: 0;
+
+}
+.row .col {
   margin: 0;
   padding: 0;
-}
-img {
-  width: 100%;
 }
