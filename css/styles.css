@@ -18,14 +18,35 @@ img{
   width: 100%;
 
 }
+.hero {
+  overflow: hidden;
+  height: 33em;
+}
+.hero-card{
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.row .hero-col{
+  padding: 0;
+  margin: 0;
+}
+.row .hero-col-s {
+  height: 50%;
+  padding: 0;
+  position: relative;
 
-.container{
+}
+.content{
   width: 100vw;
   padding: 0;
   padding-top: .1em;
   margin: 0;
 }
-
+/*#hello  {
+  height: 50vh;
+}*/
 /*#black {
   position: absolute;
   top: 9em;
@@ -34,16 +55,28 @@ img{
 }*/
 #hey {
   padding: 0;
+  background: url("../img/lrg.jpg");
+  background-size: cover;
+  height: 100%;
   /*position: relative;*/
+}
+#hello{
+  height: 100%;
 }
 #yo {
   padding: 0;
+  background: url("../img/top.jpg");
+  background-size: cover;
 
-  /*height: 100vh;*/
+  height: 50%;
 }
 
 #ok {
   padding: 0;
+  background: url("../img/btm.jpg");
+  background-size: cover;
+
+  height: 50%;
 }
 /*@media only screen and (min-width: 1092px) and (max-width: 662px){
   #yo{
